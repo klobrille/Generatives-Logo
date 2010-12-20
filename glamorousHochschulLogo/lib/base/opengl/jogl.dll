@@ -1,0 +1,983 @@
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+ <link rel="icon" type="image/vnd.microsoft.icon" href="http://www.gstatic.com/codesite/ph/images/phosting.ico">
+ 
+ <script type="text/javascript">
+ 
+ 
+ 
+ var codesite_token = null;
+ 
+ 
+ var logged_in_user_email = null;
+ 
+ 
+ var relative_base_url = "";
+ 
+ </script>
+ 
+ 
+ <title>jogl.dll - 
+ jmonkeyengine -
+ 
+ Project Hosting on Google Code</title>
+ <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" >
+ 
+ <meta name="ROBOTS" content="NOARCHIVE">
+ 
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/3526988999065534654/css/ph_core.css">
+ 
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/3526988999065534654/css/ph_detail.css" >
+ 
+ 
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/3526988999065534654/css/d_sb_20080522.css" >
+ 
+ 
+ 
+<!--[if IE]>
+ <link type="text/css" rel="stylesheet" href="http://www.gstatic.com/codesite/ph/3526988999065534654/css/d_ie.css" >
+<![endif]-->
+ <style type="text/css">
+ .menuIcon.off { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -42px }
+ .menuIcon.on { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 -28px }
+ .menuIcon.down { background: no-repeat url(http://www.gstatic.com/codesite/ph/images/dropdown_sprite.gif) 0 0; }
+ </style>
+</head>
+<body class="t4">
+ <script type="text/javascript">
+ var _gaq = _gaq || [];
+ _gaq.push(
+ ['siteTracker._setAccount', 'UA-18071-1'],
+ ['siteTracker._trackPageview']);
+ 
+ _gaq.push(
+ ['projectTracker._setAccount', 'UA-10669913-2'],
+ ['projectTracker._trackPageview']);
+ 
+ (function() {
+ var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+ ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+ (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(ga);
+ })();
+ </script>
+ <div id="gaia">
+ 
+ <span>
+ 
+ <a href="#" id="projects-dropdown" onclick="return false;"><u>My favorites</u> <small>&#9660;</small></a>
+ | <a href="https://www.google.com/accounts/ServiceLogin?service=code&amp;ltmpl=phosting&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fjmonkeyengine%2Fsource%2Fbrowse%2Ftrunk%2Flib%2Fjogl%2Fnative%2Fwindows_amd64%2Fjogl.dll%3Fr%3D4069&amp;followup=http%3A%2F%2Fcode.google.com%2Fp%2Fjmonkeyengine%2Fsource%2Fbrowse%2Ftrunk%2Flib%2Fjogl%2Fnative%2Fwindows_amd64%2Fjogl.dll%3Fr%3D4069" onclick="_CS_click('/gb/ph/signin');"><u>Sign in</u></a>
+ 
+ </span>
+
+ </div>
+ <div class="gbh" style="left: 0pt;"></div>
+ <div class="gbh" style="right: 0pt;"></div>
+ 
+ 
+ <div style="height: 1px"></div>
+<!--[if IE 6]>
+<div style="text-align:center;">
+Support browsers that contribute to open source, try <a href="http://www.firefox.com">Firefox</a> or <a href="http://www.google.com/chrome">Google Chrome</a>.
+</div>
+<![endif]-->
+
+
+
+
+ <table style="padding:0px; margin: 20px 0px 0px 0px; width:100%" cellpadding="0" cellspacing="0">
+ <tr style="height: 58px;">
+ 
+ <td style="width: 55px; text-align:center;">
+ <a href="/p/jmonkeyengine/">
+ 
+ 
+ <img src="/p/jmonkeyengine/logo?cct=1286842515" alt="Logo">
+ 
+ </a>
+ </td>
+ 
+ <td style="padding-left: 0.5em">
+ 
+ <div id="pname" style="margin: 0px 0px -3px 0px">
+ <a href="/p/jmonkeyengine/" style="text-decoration:none; color:#000">jmonkeyengine</a>
+ 
+ </div>
+ <div id="psum">
+ <i><a id="project_summary_link" href="/p/jmonkeyengine/" style="text-decoration:none; color:#000">jMonkey Engine (jME) is a leading Java Based 3D Game Engine.</a></i>
+ </div>
+ 
+ </td>
+ <td style="white-space:nowrap;text-align:right">
+ 
+ <form action="/hosting/search">
+ <input size="30" name="q" value="">
+ <input type="submit" name="projectsearch" value="Search projects" >
+ </form>
+ 
+ </tr>
+ </table>
+
+
+ 
+<table id="mt" cellspacing="0" cellpadding="0" width="100%" border="0">
+ <tr>
+ <th onclick="if (!cancelBubble) _go('/p/jmonkeyengine/');">
+ <div class="tab inactive">
+ <div class="round4"></div>
+ <div class="round2"></div>
+ <div class="round1"></div>
+ <div class="box-inner">
+ <a onclick="cancelBubble=true;" href="/p/jmonkeyengine/">Project&nbsp;Home</a>
+ </div>
+ </div>
+ </th><td>&nbsp;&nbsp;</td>
+ 
+ 
+ 
+ 
+ <th onclick="if (!cancelBubble) _go('/p/jmonkeyengine/downloads/list');">
+ <div class="tab inactive">
+ <div class="round4"></div>
+ <div class="round2"></div>
+ <div class="round1"></div>
+ <div class="box-inner">
+ <a onclick="cancelBubble=true;" href="/p/jmonkeyengine/downloads/list">Downloads</a>
+ </div>
+ </div>
+ </th><td>&nbsp;&nbsp;</td>
+ 
+ 
+ 
+ 
+ 
+ <th onclick="if (!cancelBubble) _go('/p/jmonkeyengine/wiki/Introduction?tm=6');">
+ <div class="tab inactive">
+ <div class="round4"></div>
+ <div class="round2"></div>
+ <div class="round1"></div>
+ <div class="box-inner">
+ <a onclick="cancelBubble=true;" href="/p/jmonkeyengine/wiki/Introduction?tm=6">Wiki</a>
+ </div>
+ </div>
+ </th><td>&nbsp;&nbsp;</td>
+ 
+ 
+ 
+ 
+ 
+ <th onclick="if (!cancelBubble) _go('/p/jmonkeyengine/wiki/IssueFrontpage?tm=3');">
+ <div class="tab inactive">
+ <div class="round4"></div>
+ <div class="round2"></div>
+ <div class="round1"></div>
+ <div class="box-inner">
+ <a onclick="cancelBubble=true;" href="/p/jmonkeyengine/wiki/IssueFrontpage?tm=3">Issues</a>
+ </div>
+ </div>
+ </th><td>&nbsp;&nbsp;</td>
+ 
+ 
+ 
+ 
+ 
+ <th onclick="if (!cancelBubble) _go('/p/jmonkeyengine/source/checkout');">
+ <div class="tab active">
+ <div class="round4"></div>
+ <div class="round2"></div>
+ <div class="round1"></div>
+ <div class="box-inner">
+ <a onclick="cancelBubble=true;" href="/p/jmonkeyengine/source/checkout">Source</a>
+ </div>
+ </div>
+ </th><td>&nbsp;&nbsp;</td>
+ 
+ 
+ <td width="100%">&nbsp;</td>
+ </tr>
+</table>
+<table cellspacing="0" cellpadding="0" width="100%" align="center" border="0" class="st">
+ <tr>
+ 
+ 
+ 
+ 
+ 
+ 
+ <td>
+ <div class="st2">
+ <div class="isf">
+ 
+ 
+ 
+ <span class="inst1"><a href="/p/jmonkeyengine/source/checkout">Checkout</a></span> |
+ <span class="inst2"><a href="/p/jmonkeyengine/source/browse/">Browse</a></span> |
+ <span class="inst3"><a href="/p/jmonkeyengine/source/list">Changes</a></span> |
+ 
+ <form action="http://www.google.com/codesearch" method="get" style="display:inline"
+ onsubmit="document.getElementById('codesearchq').value = document.getElementById('origq').value + ' package:http://jmonkeyengine\\.googlecode\\.com'">
+ <input type="hidden" name="q" id="codesearchq" value="">
+ <input maxlength="2048" size="38" id="origq" name="origq" value="" title="Google Code Search" style="font-size:92%">&nbsp;<input type="submit" value="Search Trunk" name="btnG" style="font-size:92%">
+ 
+ 
+ 
+ </form>
+ </div>
+</div>
+
+ </td>
+ 
+ 
+ 
+ <td height="4" align="right" valign="top" class="bevel-right">
+ <div class="round4"></div>
+ <div class="round2"></div>
+ <div class="round1"></div>
+ </td>
+ </tr>
+</table>
+<script type="text/javascript">
+ var cancelBubble = false;
+ function _go(url) { document.location = url; }
+</script>
+
+
+<div id="maincol"
+ 
+>
+
+ 
+<!-- IE -->
+
+
+
+
+<div class="expand">
+
+
+<style type="text/css">
+ #file_flipper { display: inline; float: right; white-space: nowrap; }
+ #file_flipper.hidden { display: none; }
+ #file_flipper .pagelink { color: #0000CC; text-decoration: underline; }
+ #file_flipper #visiblefiles { padding-left: 0.5em; padding-right: 0.5em; }
+</style>
+<div id="nav_and_rev" class="heading">
+ <div class="round4"></div>
+ <div class="round2"></div>
+ <div class="round1"></div>
+ <div class="box-inner" id="bub">
+ <div class="bub-top">
+ <div class="pagination" style="margin-left: 2em">
+ <table cellpadding="0" cellspacing="0" class="flipper">
+ <tbody>
+ <tr>
+ 
+ <td><b>r4069</b></td>
+ 
+ <td>
+ <ul class="rightside">
+ 
+ <li><a href="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/windows_amd64/jogl.dll?r=4123" title="Next">r4123&rsaquo;</a></li>
+ 
+ </ul>
+ </td>
+ 
+ </tr>
+ </tbody>
+ </table>
+ </div>
+ 
+ <div class="" style="vertical-align: top">
+ <div class="src_crumbs src_nav">
+ <strong class="src_nav">Source path:&nbsp;</strong>
+ <span id="crumb_root">
+ 
+ <a href="/p/jmonkeyengine/source/browse/?r=4069">svn</a>/&nbsp;</span>
+ <span id="crumb_links" class="ifClosed"><a href="/p/jmonkeyengine/source/browse/trunk/?r=4069">trunk</a><span class="sp">/&nbsp;</span><a href="/p/jmonkeyengine/source/browse/trunk/lib/?r=4069">lib</a><span class="sp">/&nbsp;</span><a href="/p/jmonkeyengine/source/browse/trunk/lib/jogl/?r=4069">jogl</a><span class="sp">/&nbsp;</span><a href="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/?r=4069">native</a><span class="sp">/&nbsp;</span><a href="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/windows_amd64/?r=4069">windows_amd64</a><span class="sp">/&nbsp;</span>jogl.dll</span>
+ 
+ 
+ </div>
+ 
+ </div>
+ <div style="clear:both"></div>
+ </div>
+ </div>
+</div>
+
+<style type="text/css">
+ 
+  tr.inline_comment {
+ background: #fff;
+ vertical-align: top;
+ }
+ div.draft, div.published {
+ padding: .3em;
+ border: 1px solid #999; 
+ margin-bottom: .1em;
+ font-family: arial, sans-serif;
+ max-width: 60em;
+ }
+ div.draft {
+ background: #ffa;
+ } 
+ div.published {
+ background: #e5ecf9;
+ }
+ div.published .body, div.draft .body {
+ padding: .5em .1em .1em .1em;
+ max-width: 60em;
+ white-space: pre-wrap;
+ white-space: -moz-pre-wrap;
+ white-space: -pre-wrap;
+ white-space: -o-pre-wrap;
+ word-wrap: break-word;
+ }
+ div.draft .actions {
+ margin-left: 1em;
+ font-size: 90%;
+ }
+ div.draft form {
+ padding: .5em .5em .5em 0;
+ }
+ div.draft textarea, div.published textarea {
+ width: 95%;
+ height: 10em;
+ font-family: arial, sans-serif;
+ margin-bottom: .5em;
+ }
+
+
+ 
+ .nocursor, .nocursor td, .cursor_hidden, .cursor_hidden td {
+ background-color: white;
+ height: 2px;
+ }
+ .cursor, .cursor td {
+ background-color: darkblue;
+ height: 2px;
+ display: '';
+ }
+
+</style>
+<div class="fc">
+ 
+ 
+ <p><em>
+ 
+ This file is not plain text (only UTF-8 and Latin-1
+ text encodings are currently supported).
+ 
+ </em></p>
+ 
+ 
+ <div id="log">
+ <div style="text-align:right">
+ <a class="ifCollapse" href="#" onclick="_toggleMeta('', 'p', 'jmonkeyengine', this)">Show details</a>
+ <a class="ifExpand" href="#" onclick="_toggleMeta('', 'p', 'jmonkeyengine', this)">Hide details</a>
+ </div>
+ <div class="ifExpand">
+ 
+ <div class="pmeta_bubble_bg" style="border:1px solid white">
+ <div class="round4"></div>
+ <div class="round2"></div>
+ <div class="round1"></div>
+ <div class="box-inner">
+ <div id="changelog">
+ <p>Change log</p>
+ <div>
+ <a href="/p/jmonkeyengine/source/detail?spec=svn4069&r=4069">r4069</a>
+ by joshua.j.ellen
+ on Dec 18, 2008
+ &nbsp; <a href="/p/jmonkeyengine/source/diff?spec=svn4069&r=4069&amp;format=side&amp;path=/trunk/lib/jogl/native/windows_amd64/jogl.dll&amp;old_path=/trunk/lib/jogl/native/windows_amd64/jogl.dll&amp;old=">Diff</a>
+ </div>
+ <pre>upload new (complete) jogl 1.1.1
+libraries.</pre>
+ </div>
+ 
+ 
+ 
+ 
+ 
+ 
+ <script type="text/javascript">
+ var detail_url = '/p/jmonkeyengine/source/detail?r=4069&spec=svn4069';
+ var publish_url = '/p/jmonkeyengine/source/detail?r=4069&spec=svn4069#publish';
+ // describe the paths of this revision in javascript.
+ var changed_paths = [];
+ var changed_urls = [];
+ 
+ changed_paths.push('/trunk/lib/jogl');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/CHANGELOG.txt');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/CHANGELOG.txt?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/COPYRIGHT.txt');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/COPYRIGHT.txt?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/LICENSE-JOGL-1.1.1.txt');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/LICENSE-JOGL-1.1.1.txt?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/gluegen-rt.jar');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/gluegen-rt.jar?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/jogl.jar');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/jogl.jar?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/native');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/native?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/native/linux_amd64');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/linux_amd64?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/native/linux_amd64/libgluegen-rt.so');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/linux_amd64/libgluegen-rt.so?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/native/linux_amd64/libjogl.so');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/linux_amd64/libjogl.so?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/native/linux_amd64/libjogl_awt.so');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/linux_amd64/libjogl_awt.so?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/native/linux_amd64/libjogl_cg.so');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/linux_amd64/libjogl_cg.so?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/native/linux_i586');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/linux_i586?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/native/linux_i586/libgluegen-rt.so');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/linux_i586/libgluegen-rt.so?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/native/linux_i586/libjogl.so');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/linux_i586/libjogl.so?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/native/linux_i586/libjogl_awt.so');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/linux_i586/libjogl_awt.so?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/native/linux_i586/libjogl_cg.so');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/linux_i586/libjogl_cg.so?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/native/macosx');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/macosx?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/native/macosx/libgluegen-rt.jnilib');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/macosx/libgluegen-rt.jnilib?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/native/macosx/libjogl.jnilib');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/macosx/libjogl.jnilib?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/native/macosx/libjogl_awt.jnilib');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/macosx/libjogl_awt.jnilib?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/native/macosx/libjogl_cg.jnilib');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/macosx/libjogl_cg.jnilib?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/native/windows_amd64');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/windows_amd64?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/native/windows_amd64/gluegen-rt.dll');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/windows_amd64/gluegen-rt.dll?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/native/windows_amd64/jogl.dll');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/windows_amd64/jogl.dll?r=4069&spec=svn4069');
+ 
+ var selected_path = '/trunk/lib/jogl/native/windows_amd64/jogl.dll';
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/native/windows_amd64/jogl_awt.dll');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/windows_amd64/jogl_awt.dll?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/native/windows_amd64/jogl_cg.dll');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/windows_amd64/jogl_cg.dll?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/native/windows_i586');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/windows_i586?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/native/windows_i586/gluegen-rt.dll');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/windows_i586/gluegen-rt.dll?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/native/windows_i586/jogl.dll');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/windows_i586/jogl.dll?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/native/windows_i586/jogl_awt.dll');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/windows_i586/jogl_awt.dll?r=4069&spec=svn4069');
+ 
+ 
+ changed_paths.push('/trunk/lib/jogl/native/windows_i586/jogl_cg.dll');
+ changed_urls.push('/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/windows_i586/jogl_cg.dll?r=4069&spec=svn4069');
+ 
+ 
+ function getCurrentPageIndex() {
+ for (var i = 0; i < changed_paths.length; i++) {
+ if (selected_path == changed_paths[i]) {
+ return i;
+ }
+ }
+ }
+ function getNextPage() {
+ var i = getCurrentPageIndex();
+ if (i < changed_paths.length - 1) {
+ return changed_urls[i + 1];
+ }
+ return null;
+ }
+ function getPreviousPage() {
+ var i = getCurrentPageIndex();
+ if (i > 0) {
+ return changed_urls[i - 1];
+ }
+ return null;
+ }
+ function gotoNextPage() {
+ var page = getNextPage();
+ if (!page) {
+ page = detail_url;
+ }
+ window.location = page;
+ }
+ function gotoPreviousPage() {
+ var page = getPreviousPage();
+ if (!page) {
+ page = detail_url;
+ }
+ window.location = page;
+ }
+ function gotoDetailPage() {
+ window.location = detail_url;
+ }
+ function gotoPublishPage() {
+ window.location = publish_url;
+ }
+</script>
+ 
+ <style type="text/css">
+ #review_nav {
+ border-top: 3px solid white;
+ padding-top: 6px;
+ margin-top: 1em;
+ }
+ #review_nav td {
+ vertical-align: middle;
+ }
+ #review_nav select {
+ margin: .5em 0;
+ }
+ </style>
+ <div id="review_nav">
+ <table><tr><td>Go to:&nbsp;</td><td>
+ <select name="files_in_rev" onchange="window.location=this.value">
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl?r=4069&amp;spec=svn4069"
+ 
+ >/trunk/lib/jogl</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/CHANGELOG.txt?r=4069&amp;spec=svn4069"
+ 
+ >/trunk/lib/jogl/CHANGELOG.txt</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/COPYRIGHT.txt?r=4069&amp;spec=svn4069"
+ 
+ >/trunk/lib/jogl/COPYRIGHT.txt</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/LICENSE-JOGL-1.1.1.txt?r=4069&amp;spec=svn4069"
+ 
+ >.../lib/jogl/LICENSE-JOGL-1.1.1.txt</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/gluegen-rt.jar?r=4069&amp;spec=svn4069"
+ 
+ >/trunk/lib/jogl/gluegen-rt.jar</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/jogl.jar?r=4069&amp;spec=svn4069"
+ 
+ >/trunk/lib/jogl/jogl.jar</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native?r=4069&amp;spec=svn4069"
+ 
+ >/trunk/lib/jogl/native</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/linux_amd64?r=4069&amp;spec=svn4069"
+ 
+ >/trunk/lib/jogl/native/linux_amd64</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/linux_amd64/libgluegen-rt.so?r=4069&amp;spec=svn4069"
+ 
+ >...ive/linux_amd64/libgluegen-rt.so</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/linux_amd64/libjogl.so?r=4069&amp;spec=svn4069"
+ 
+ >...gl/native/linux_amd64/libjogl.so</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/linux_amd64/libjogl_awt.so?r=4069&amp;spec=svn4069"
+ 
+ >...ative/linux_amd64/libjogl_awt.so</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/linux_amd64/libjogl_cg.so?r=4069&amp;spec=svn4069"
+ 
+ >...native/linux_amd64/libjogl_cg.so</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/linux_i586?r=4069&amp;spec=svn4069"
+ 
+ >/trunk/lib/jogl/native/linux_i586</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/linux_i586/libgluegen-rt.so?r=4069&amp;spec=svn4069"
+ 
+ >...tive/linux_i586/libgluegen-rt.so</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/linux_i586/libjogl.so?r=4069&amp;spec=svn4069"
+ 
+ >...ogl/native/linux_i586/libjogl.so</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/linux_i586/libjogl_awt.so?r=4069&amp;spec=svn4069"
+ 
+ >...native/linux_i586/libjogl_awt.so</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/linux_i586/libjogl_cg.so?r=4069&amp;spec=svn4069"
+ 
+ >.../native/linux_i586/libjogl_cg.so</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/macosx?r=4069&amp;spec=svn4069"
+ 
+ >/trunk/lib/jogl/native/macosx</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/macosx/libgluegen-rt.jnilib?r=4069&amp;spec=svn4069"
+ 
+ >...tive/macosx/libgluegen-rt.jnilib</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/macosx/libjogl.jnilib?r=4069&amp;spec=svn4069"
+ 
+ >...ogl/native/macosx/libjogl.jnilib</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/macosx/libjogl_awt.jnilib?r=4069&amp;spec=svn4069"
+ 
+ >...native/macosx/libjogl_awt.jnilib</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/macosx/libjogl_cg.jnilib?r=4069&amp;spec=svn4069"
+ 
+ >.../native/macosx/libjogl_cg.jnilib</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/windows_amd64?r=4069&amp;spec=svn4069"
+ 
+ >...nk/lib/jogl/native/windows_amd64</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/windows_amd64/gluegen-rt.dll?r=4069&amp;spec=svn4069"
+ 
+ >...ive/windows_amd64/gluegen-rt.dll</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/windows_amd64/jogl.dll?r=4069&amp;spec=svn4069"
+ selected="selected"
+ >...gl/native/windows_amd64/jogl.dll</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/windows_amd64/jogl_awt.dll?r=4069&amp;spec=svn4069"
+ 
+ >...ative/windows_amd64/jogl_awt.dll</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/windows_amd64/jogl_cg.dll?r=4069&amp;spec=svn4069"
+ 
+ >...native/windows_amd64/jogl_cg.dll</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/windows_i586?r=4069&amp;spec=svn4069"
+ 
+ >/trunk/lib/jogl/native/windows_i586</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/windows_i586/gluegen-rt.dll?r=4069&amp;spec=svn4069"
+ 
+ >...tive/windows_i586/gluegen-rt.dll</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/windows_i586/jogl.dll?r=4069&amp;spec=svn4069"
+ 
+ >...ogl/native/windows_i586/jogl.dll</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/windows_i586/jogl_awt.dll?r=4069&amp;spec=svn4069"
+ 
+ >...native/windows_i586/jogl_awt.dll</option>
+ 
+ <option value="/p/jmonkeyengine/source/browse/trunk/lib/jogl/native/windows_i586/jogl_cg.dll?r=4069&amp;spec=svn4069"
+ 
+ >.../native/windows_i586/jogl_cg.dll</option>
+ 
+ </select>
+ </td></tr></table>
+ 
+ 
+ 
+
+
+
+ <div style="white-space:nowrap">
+ Project members,
+ <a href="https://www.google.com/accounts/ServiceLogin?service=code&amp;ltmpl=phosting&amp;continue=http%3A%2F%2Fcode.google.com%2Fp%2Fjmonkeyengine%2Fsource%2Fbrowse%2Ftrunk%2Flib%2Fjogl%2Fnative%2Fwindows_amd64%2Fjogl.dll%3Fr%3D4069&amp;followup=http%3A%2F%2Fcode.google.com%2Fp%2Fjmonkeyengine%2Fsource%2Fbrowse%2Ftrunk%2Flib%2Fjogl%2Fnative%2Fwindows_amd64%2Fjogl.dll%3Fr%3D4069"
+ >sign in</a> to write a code review</div>
+
+
+ 
+ </div>
+ 
+ 
+ </div>
+ <div class="round1"></div>
+ <div class="round2"></div>
+ <div class="round4"></div>
+ </div>
+ <div class="pmeta_bubble_bg" style="border:1px solid white">
+ <div class="round4"></div>
+ <div class="round2"></div>
+ <div class="round1"></div>
+ <div class="box-inner">
+ <div id="older_bubble">
+ <p>Older revisions</p>
+ 
+ <a href="/p/jmonkeyengine/source/list?path=/trunk/lib/jogl/native/windows_amd64/jogl.dll&start=4069">All revisions of this file</a>
+ </div>
+ </div>
+ <div class="round1"></div>
+ <div class="round2"></div>
+ <div class="round4"></div>
+ </div>
+ <div class="pmeta_bubble_bg" style="border:1px solid white">
+ <div class="round4"></div>
+ <div class="round2"></div>
+ <div class="round1"></div>
+ <div class="box-inner">
+ <div id="fileinfo_bubble">
+ <p>File info</p>
+ 
+ <div>Size: 351232 bytes</div>
+ 
+ <div><a href="http://jmonkeyengine.googlecode.com/svn-history/r4069/trunk/lib/jogl/native/windows_amd64/jogl.dll">View raw file</a></div>
+ </div>
+ 
+ <div id="props">
+ <p>File properties</p>
+ <dl>
+ 
+ <dt>svn:mime-type</dt>
+ <dd>application/octet-stream</dd>
+ 
+ </dl>
+ </div>
+ 
+ </div>
+ <div class="round1"></div>
+ <div class="round2"></div>
+ <div class="round4"></div>
+ </div>
+ </div>
+ </div>
+
+
+</div>
+</div>
+
+<script src="http://www.gstatic.com/codesite/ph/3526988999065534654/js/source_file_scripts.js"></script>
+
+ <script type="text/javascript" src="http://kibbles.googlecode.com/files/kibbles-1.3.1.comp.js"></script>
+ <script type="text/javascript">
+ var lastStop = null;
+ var initilized = false;
+ 
+ function updateCursor(next, prev) {
+ if (prev && prev.element) {
+ prev.element.className = 'cursor_stop cursor_hidden';
+ }
+ if (next && next.element) {
+ next.element.className = 'cursor_stop cursor';
+ lastStop = next.index;
+ }
+ }
+ 
+ function pubRevealed(data) {
+ updateCursorForCell(data.cellId, 'cursor_stop cursor_hidden');
+ if (initilized) {
+ reloadCursors();
+ }
+ }
+ 
+ function draftRevealed(data) {
+ updateCursorForCell(data.cellId, 'cursor_stop cursor_hidden');
+ if (initilized) {
+ reloadCursors();
+ }
+ }
+ 
+ function draftDestroyed(data) {
+ updateCursorForCell(data.cellId, 'nocursor');
+ if (initilized) {
+ reloadCursors();
+ }
+ }
+ function reloadCursors() {
+ kibbles.skipper.reset();
+ loadCursors();
+ if (lastStop != null) {
+ kibbles.skipper.setCurrentStop(lastStop);
+ }
+ }
+ // possibly the simplest way to insert any newly added comments
+ // is to update the class of the corresponding cursor row,
+ // then refresh the entire list of rows.
+ function updateCursorForCell(cellId, className) {
+ var cell = document.getElementById(cellId);
+ // we have to go two rows back to find the cursor location
+ var row = getPreviousElement(cell.parentNode);
+ row.className = className;
+ }
+ // returns the previous element, ignores text nodes.
+ function getPreviousElement(e) {
+ var element = e.previousSibling;
+ if (element.nodeType == 3) {
+ element = element.previousSibling;
+ }
+ if (element && element.tagName) {
+ return element;
+ }
+ }
+ function loadCursors() {
+ // register our elements with skipper
+ var elements = CR_getElements('*', 'cursor_stop');
+ var len = elements.length;
+ for (var i = 0; i < len; i++) {
+ var element = elements[i]; 
+ element.className = 'cursor_stop cursor_hidden';
+ kibbles.skipper.append(element);
+ }
+ }
+ function toggleComments() {
+ CR_toggleCommentDisplay();
+ reloadCursors();
+ }
+ function keysOnLoadHandler() {
+ // setup skipper
+ kibbles.skipper.addStopListener(
+ kibbles.skipper.LISTENER_TYPE.PRE, updateCursor);
+ // Set the 'offset' option to return the middle of the client area
+ // an option can be a static value, or a callback
+ kibbles.skipper.setOption('padding_top', 50);
+ // Set the 'offset' option to return the middle of the client area
+ // an option can be a static value, or a callback
+ kibbles.skipper.setOption('padding_bottom', 100);
+ // Register our keys
+ kibbles.skipper.addFwdKey("n");
+ kibbles.skipper.addRevKey("p");
+ kibbles.keys.addKeyPressListener(
+ 'u', function() { window.location = detail_url; });
+ kibbles.keys.addKeyPressListener(
+ 'r', function() { window.location = detail_url + '#publish'; });
+ 
+ kibbles.keys.addKeyPressListener('j', gotoNextPage);
+ kibbles.keys.addKeyPressListener('k', gotoPreviousPage);
+ 
+ 
+ }
+ window.onload = function() {keysOnLoadHandler();};
+ </script>
+
+<!-- code review support -->
+<script src="http://www.gstatic.com/codesite/ph/3526988999065534654/js/code_review_scripts.js"></script>
+<script type="text/javascript">
+ 
+ // the comment form template
+ var form = '<div class="draft"><div class="header"><span class="title">Draft comment:</span></div>' +
+ '<div class="body"><form onsubmit="return false;"><textarea id="$ID">$BODY</textarea><br>$ACTIONS</form></div>' +
+ '</div>';
+ // the comment "plate" template used for both draft and published comment "plates".
+ var draft_comment = '<div class="draft" ondblclick="$ONDBLCLICK">' +
+ '<div class="header"><span class="title">Draft comment:</span><span class="actions">$ACTIONS</span></div>' +
+ '<pre id="$ID" class="body">$BODY</pre>' +
+ '</div>';
+ var published_comment = '<div class="published">' +
+ '<div class="header"><span class="title"><a href="$PROFILE_URL">$AUTHOR:</a></span><div>' +
+ '<pre id="$ID" class="body">$BODY</pre>' +
+ '</div>';
+
+ function showPublishInstructions() {
+ var element = document.getElementById('review_instr');
+ if (element) {
+ element.className = 'opened';
+ }
+ }
+ function revsOnLoadHandler() {
+ // register our source container with the commenting code
+ var paths = {'svn4069': '/trunk/lib/jogl/native/windows_amd64/jogl.dll'}
+ CR_setup('', 'p', 'jmonkeyengine', '', 'svn4069', paths,
+ '', CR_BrowseIntegrationFactory);
+ // register our hidden ui elements with the code commenting code ui builder.
+ CR_registerLayoutElement('form', form);
+ CR_registerLayoutElement('draft_comment', draft_comment);
+ CR_registerLayoutElement('published_comment', published_comment);
+ 
+ CR_registerActivityListener(CR_ACTIVITY_TYPE.REVEAL_DRAFT_PLATE, showPublishInstructions);
+ 
+ CR_registerActivityListener(CR_ACTIVITY_TYPE.REVEAL_PUB_PLATE, pubRevealed);
+ CR_registerActivityListener(CR_ACTIVITY_TYPE.REVEAL_DRAFT_PLATE, draftRevealed);
+ CR_registerActivityListener(CR_ACTIVITY_TYPE.DISCARD_DRAFT_COMMENT, draftDestroyed);
+ 
+ 
+ 
+ 
+ var initilized = true;
+ reloadCursors();
+ }
+ window.onload = function() {keysOnLoadHandler(); revsOnLoadHandler();};
+</script>
+<script type="text/javascript" src="http://www.gstatic.com/codesite/ph/3526988999065534654/js/dit_scripts.js"></script>
+
+ 
+ 
+ <script type="text/javascript" src="http://www.gstatic.com/codesite/ph/3526988999065534654/js/core_scripts_20081103.js"></script>
+ <script type="text/javascript" src="/js/codesite_product_dictionary_ph.pack.04102009.js"></script>
+ </div>
+<div id="footer" dir="ltr">
+ 
+ <div class="text">
+ 
+ &copy;2010 Google -
+ <a href="/projecthosting/terms.html">Terms</a> -
+ <a href="http://www.google.com/privacy.html">Privacy</a> -
+ <a href="/p/support/">Project Hosting Help</a>
+ 
+ </div>
+</div>
+
+ <div class="hostedBy" style="margin-top: -20px;">
+ <span style="vertical-align: top;">Powered by <a href="http://code.google.com/projecthosting/">Google Project Hosting</a></span>
+ </div>
+ 
+ 
+
+
+ 
+ </body>
+</html>
+
